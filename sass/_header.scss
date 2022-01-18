@@ -1,50 +1,105 @@
 .header-about {
-    &-nav {
-        padding: .5rem;
-        display: flex;
-        flex-direction: column;
-        &-logo {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            &-image {
-                & img {
-                    height: 3rem;
-                }
+    background-color: #f7f6f0;
+    padding-bottom: 2rem;
+    &-main {
+        padding: 0 1.5rem;
+        & label {
+            display: block;
+        }
+        &-title {
+            margin-inline: auto;
+            width: 80vw;
+            padding-top: 5rem;
+            & h4 {
+                font-size: 2rem;
+                font-family: $fontClassic;
+                font-weight: 700;
+                padding-bottom: 1rem;
             }
-            &-hamburger {
-                & span {
-                    display: block;
-                    background-color: $accentColor;
-                    width: 25px;
-                    height: 2px;
-                    &:not(:last-child) {
-                        margin-bottom: .4rem;
-                    }
+            & h1 {
+                font-family: $fontOfficialKinda;
+                font-weight: 600;
+                line-height: 1.5;
+                padding-bottom: 3rem;
+            }
+            & p {
+                font-size: 1.2rem;
+                & strong {
+                    color: $accentColor;
                 }
             }
         }
-        &-links {
-            text-align: center;
-            padding-left: 1rem;
-            padding-bottom: .5rem;
-            &-ul {
-                max-width: 31.25rem;
-                margin-inline: auto;
-                & li {
-                    padding: .5rem;
-                    & a {
-                        color: black;
+        &-description {
+            margin-inline: auto;
+            width: 90vw;
+            box-shadow: 0 0 .5rem .2rem rgba(0, 0, 0, 0.2);
+            padding: 1.5rem;
+            border-radius: 3rem;
+            background-color: white;
+            &-form {
+                font-family: $fontOfficialKinda;
+                padding: 2rem .5rem .3rem;
+                font-size: .9rem;
+                &-name {
+                    & input {
+                        margin-top: .5rem;
+                        padding: .8rem;
+                        border: 2px solid hsl(0, 0%, 80%);
+                        border-radius: .5rem;
+                        width: 75vw;
+                    }
+                }
+                &-phone {
+                    padding: 1rem 0;
+                    & input {
+                        margin-top: .5rem;
+                        padding: .8rem;
+                        border: 2px solid hsl(0, 0%, 80%);
+                        border-radius: .5rem;
+                        width: 75vw;
+                    }
+                }
+                &-email {
+                    padding-bottom: 2rem;
+                    & input {
+                        margin-top: .5rem;
+                        padding: .8rem;
+                        border: 2px solid hsl(0, 0%, 80%);
+                        border-radius: .5rem;
+                        width: 75vw;
+                    }
+                }
+                &-textarea {
+                    & textarea {
+                        margin-top: .5rem;
+                        border: 2px solid hsl(0, 0%, 80%);
+                        border-radius: .5rem;
+                        height: 190px;
+                        width: 75vw;
+                        resize: none;
+                    }
+                }
+                &-submit {
+                    margin-top: 2rem;
+                    & button {
+                        border: 1px solid $accentColor;
+                        background-color: $accentColor;
+                        color: white;
+                        padding: 1rem 1.7rem;
+                        border-radius: 2rem;
+                        margin-inline: auto;
+                        transition: $trans;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        &:hover {
+                            transition: $trans;
+                            background-color: transparent;
+                            border: 1px solid $accentColor;
+                            color: $accentColor;
+                        }
                     }
                 }
             }
         }
     }
-}
-
-#book {
-    background-color: $accentColor;
-    padding: .5rem .7rem;
-    border-radius: 1rem;
-    color: white;
 }

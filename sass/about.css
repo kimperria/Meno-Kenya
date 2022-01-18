@@ -24,73 +24,164 @@ a {
   font-family: sans-serif;
 }
 
-.header-about-nav {
-  padding: .5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.header-about {
+  background-color: #f7f6f0;
+  padding-bottom: 2rem;
 }
 
-.header-about-nav-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.header-about-main {
+  padding: 0 1.5rem;
 }
 
-.header-about-nav-logo-image img {
-  height: 3rem;
-}
-
-.header-about-nav-logo-hamburger span {
+.header-about-main label {
   display: block;
-  background-color: #2faeef;
-  width: 25px;
-  height: 2px;
 }
 
-.header-about-nav-logo-hamburger span:not(:last-child) {
-  margin-bottom: .4rem;
-}
-
-.header-about-nav-links {
-  text-align: center;
-  padding-left: 1rem;
-  padding-bottom: .5rem;
-}
-
-.header-about-nav-links-ul {
-  max-width: 31.25rem;
+.header-about-main-title {
   margin-inline: auto;
+  width: 80vw;
+  padding-top: 5rem;
 }
 
-.header-about-nav-links-ul li {
-  padding: .5rem;
+.header-about-main-title h4 {
+  font-size: 2rem;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  padding-bottom: 1rem;
 }
 
-.header-about-nav-links-ul li a {
-  color: black;
+.header-about-main-title h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 3rem;
 }
 
-#book {
+.header-about-main-title p {
+  font-size: 1.2rem;
+}
+
+.header-about-main-title p strong {
+  color: #2faeef;
+}
+
+.header-about-main-description {
+  margin-inline: auto;
+  width: 90vw;
+  -webkit-box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 3rem;
+  background-color: white;
+}
+
+.header-about-main-description-form {
+  font-family: "Merriweather", serif;
+  padding: 2rem .5rem .3rem;
+  font-size: .9rem;
+}
+
+.header-about-main-description-form-name input {
+  margin-top: .5rem;
+  padding: .8rem;
+  border: 2px solid #cccccc;
+  border-radius: .5rem;
+  width: 75vw;
+}
+
+.header-about-main-description-form-phone {
+  padding: 1rem 0;
+}
+
+.header-about-main-description-form-phone input {
+  margin-top: .5rem;
+  padding: .8rem;
+  border: 2px solid #cccccc;
+  border-radius: .5rem;
+  width: 75vw;
+}
+
+.header-about-main-description-form-email {
+  padding-bottom: 2rem;
+}
+
+.header-about-main-description-form-email input {
+  margin-top: .5rem;
+  padding: .8rem;
+  border: 2px solid #cccccc;
+  border-radius: .5rem;
+  width: 75vw;
+}
+
+.header-about-main-description-form-textarea textarea {
+  margin-top: .5rem;
+  border: 2px solid #cccccc;
+  border-radius: .5rem;
+  height: 190px;
+  width: 75vw;
+  resize: none;
+}
+
+.header-about-main-description-form-submit {
+  margin-top: 2rem;
+}
+
+.header-about-main-description-form-submit button {
+  border: 1px solid #2faeef;
   background-color: #2faeef;
-  padding: .5rem .7rem;
-  border-radius: 1rem;
   color: white;
+  padding: 1rem 1.7rem;
+  border-radius: 2rem;
+  margin-inline: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-@media (max-width: 768px) {
-  .header-about-nav-links {
-    display: none;
+.header-about-main-description-form-submit button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: 1px solid #2faeef;
+  color: #2faeef;
+}
+
+@media screen and (min-width: 768px) {
+  .header-about-main-title h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header-about-main {
+    padding-top: 5rem;
+    max-width: 1400px;
+    margin-inline: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(450px, 700px))[2];
+        grid-template-columns: repeat(2, minmax(450px, 700px));
+  }
+  .header-about-main-title {
+    margin-inline: auto;
+    width: 90%;
+  }
+  .header-about-main-description {
+    margin-inline: auto;
+    width: 80%;
+  }
+  .header-about-main-description-form-name input {
+    width: 100%;
+  }
+  .header-about-main-description-form-phone input {
+    width: 100%;
+  }
+  .header-about-main-description-form-email input {
+    width: 100%;
+  }
+  .header-about-main-description-form-textarea textarea {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=about.css.map */
