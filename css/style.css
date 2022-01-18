@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* nav */
+.book-button{
+    background-color: #2faeef;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
 
+.book-button:hover{
+    background-color: hsl(200, 86%, 75%);
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+/* footer */
 .footer {
     display: flex;
     flex-direction: column;
