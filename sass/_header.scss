@@ -1,0 +1,50 @@
+.header-about {
+    &-nav {
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        &-logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-image {
+                & img {
+                    height: 3rem;
+                }
+            }
+            &-hamburger {
+                & span {
+                    display: block;
+                    background-color: $accentColor;
+                    width: 25px;
+                    height: 2px;
+                    &:not(:last-child) {
+                        margin-bottom: .4rem;
+                    }
+                }
+            }
+        }
+        &-links {
+            text-align: center;
+            padding-left: 1rem;
+            padding-bottom: .5rem;
+            &-ul {
+                max-width: 31.25rem;
+                margin-inline: auto;
+                & li {
+                    padding: .5rem;
+                    & a {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#book {
+    background-color: $accentColor;
+    padding: .5rem .7rem;
+    border-radius: 1rem;
+    color: white;
+}
