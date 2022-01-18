@@ -26,8 +26,9 @@
     background-color: rgba(47, 174, 239, 0.3);
 }
 /* testimonial section */
-.testimonial-section{
+.test-card{
     background-color: rgba(47, 174, 239, 0.3);
+    color: black;
 }
 /* contact section */
 .contact-section{
