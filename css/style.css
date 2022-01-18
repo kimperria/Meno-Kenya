@@ -18,6 +18,12 @@
 /* about section */
 .section-header{
     text-align: center;
+    line-height: 5rem;
+}
+
+/* dentist section */
+.dentist-section{
+    background-color: rgba(47, 174, 239, 0.3);
 }
 /* footer */
 .footer {
