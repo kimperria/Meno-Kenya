@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.header-about-nav {
+  padding: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-about-nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-about-nav-logo-image img {
+  height: 3rem;
+}
+
+.header-about-nav-logo-hamburger span {
+  display: block;
+  background-color: #2faeef;
+  width: 25px;
+  height: 2px;
+}
+
+.header-about-nav-logo-hamburger span:not(:last-child) {
+  margin-bottom: .4rem;
+}
+
+.header-about-nav-links {
+  text-align: center;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+}
+
+.header-about-nav-links-ul {
+  max-width: 31.25rem;
+  margin-inline: auto;
+}
+
+.header-about-nav-links-ul li {
+  padding: .5rem;
+}
+
+.header-about-nav-links-ul li a {
+  color: black;
+}
+
+#book {
+  background-color: #2faeef;
+  padding: .5rem .7rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header-about-nav-links {
+    display: none;
+  }
+}
+/*# sourceMappingURL=about.css.map */
