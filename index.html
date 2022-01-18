@@ -1,123 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Links Title Icon-->
-    <link rel="icon" href="images/title-icon.png">
+    <link rel="icon" href="images/title-icon.png" />
     <!--Link to font awesome-->
     <title>Meno Kenya | Nothing But The Tooth</title>
     <!-- css links here -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--TALIWIND CSS HERE-->
+    <link href="./css/tailwind.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
     <!-- nav bar start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/meno-kenya-logo.png" alt="logo" width="100" height="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Dentists</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Shop</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
-                    </li>
-                    <li>
-                        <a href="#" class="btn active book-button">Book Appointment</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/meno-kenya-logo.png"
+            alt="logo"
+            width="100"
+            height="50"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Dentists</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Shop</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+            <li>
+              <a href="#" class="btn active book-button">Book Appointment</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- nav bar end -->
 
     <!-- main section start-->
     <main>
-        <!-- carousel start -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/pexels-anna-shvets-3845757.jpg" class="d-block w-100" alt="slide one">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Hello There!</h2>
-                        <h4>Karibu Meno KENYA</h4>
-                        <p>Online home for your dental health experts in kenya.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/pexels-anna-shvets-3845548.jpg" class="d-block w-100" alt="slide two">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Dental Implants</h2>
-                        <p>Wake up with a smile and go after life!</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/pexels-andrea-piacquadio-3769021.jpg" class="d-block w-100" alt="slide three">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Floss your smile</h2>
-                        <p>A smile is happiness you will find right under your nose.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+      <!-- carousel start -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-        <!-- carousel end -->
-
-
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/pexels-anna-shvets-3845757.jpg"
+              class="d-block w-100"
+              alt="slide one"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Hello There!</h2>
+              <h4>Karibu Meno KENYA</h4>
+              <p>Online home for your dental health experts in kenya.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/pexels-anna-shvets-3845548.jpg"
+              class="d-block w-100"
+              alt="slide two"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Dental Implants</h2>
+              <p>Wake up with a smile and go after life!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/pexels-andrea-piacquadio-3769021.jpg"
+              class="d-block w-100"
+              alt="slide three"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Floss your smile</h2>
+              <p>A smile is happiness you will find right under your nose.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span
+          ><span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span
+          ><span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
     </main>
+    <
+    
+
     <footer class="footer">
-        <article class="footer-links">
-            <ul class="footer-links-ul">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </article>
-        <article class="foooter-socials">
-            <a href="https://www.facebook.com/monie.car.7" target="_blank"><img src="images/icons/facebook-light.svg" alt="facebook"></a>
-            <a href="https://github.com/John-Kimani/Meno-Kenya.git" target="_blank"><img src="images/icons/github.svg" alt="github"></a>
-            <a href="mailto:connietesot254@gmail.com" target="_blank"><img src="images/icons/gmail.svg" alt="gmail"></a>
-            <a href="https://twitter.com/crabs_ke" target="_blank"><img src="images/icons/twitter.svg" alt="twitter"></a>
-        </article>
+      <article class="footer-links">
+        <ul class="footer-links-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </article>
+      <article class="foooter-socials">
+        <a href="https://www.facebook.com/monie.car.7" target="_blank"
+          ><img src="images/icons/facebook-light.svg" alt="facebook"
+        /></a>
+        <a href="https://github.com/John-Kimani/Meno-Kenya.git" target="_blank"
+          ><img src="images/icons/github.svg" alt="github"
+        /></a>
+        <a href="mailto:connietesot254@gmail.com" target="_blank"
+          ><img src="images/icons/gmail.svg" alt="gmail"
+        /></a>
+        <a href="https://twitter.com/crabs_ke" target="_blank"
+          ><img src="images/icons/twitter.svg" alt="twitter"
+        /></a>
+      </article>
     </footer>
     <!-- main section end -->
     <!-- js links here -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
