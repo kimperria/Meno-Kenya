@@ -29,6 +29,10 @@
 .testimonial-section{
     background-color: rgba(47, 174, 239, 0.3);
 }
+/* contact section */
+.contact-section{
+    background-color: rgba(47, 174, 239, 0.3);
+}
 /* footer */
 .footer {
     display: flex;
