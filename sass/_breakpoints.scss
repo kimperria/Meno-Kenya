@@ -1,7 +1,45 @@
-@media (max-width:768px) {
-    .header-about-nav-links {
-        display: none;
+@media screen and (min-width:768px) {
+    .header-about-main-title h1 {
+        font-size: 3rem;
     }
 }
 
-@media (min-width:768px) {}
+@media screen and (min-width:1000px) {
+    .header-about-main {
+        padding-top: 5rem;
+        max-width: 1400px;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(450px, 700px));
+        &-title {
+            margin-inline: auto;
+            width: 90%;
+        }
+        &-description {
+            margin-inline: auto;
+            width: 80%;
+            &-form {
+                &-name {
+                    & input {
+                        width: 100%;
+                    }
+                }
+                &-phone {
+                    & input {
+                        width: 100%;
+                    }
+                }
+                &-email {
+                    & input {
+                        width: 100%;
+                    }
+                }
+                &-textarea {
+                    & textarea {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
