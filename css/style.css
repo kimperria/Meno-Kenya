@@ -18,6 +18,25 @@
     color: rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
 }
+/* about section */
+.section-header{
+    text-align: center;
+    line-height: 5rem;
+}
+
+/* dentist section */
+.dentist-section{
+    background-color: rgba(47, 174, 239, 0.3);
+}
+/* testimonial section */
+.test-card{
+    background-color: rgba(47, 174, 239, 0.3);
+    color: black;
+}
+/* contact section */
+.contact-section{
+    background-color: rgba(47, 174, 239, 0.3);
+}
 
 
 /* footer */
