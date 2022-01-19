@@ -8,5 +8,14 @@ const emailError = document.getElementById('email-error')
 
 
 form.addEventListener('submit', (e) => {
-    e.preventDefault()
+    let nameProblems = []
+    let emailProblems = []
+
+    if(clientName.value === null || clientName.value == ' '){
+        nameProblems.push("Name is required!")
+    }
+    if(nameProblems.length > 0 || emailProblems >0){
+        e.preventDefault()
+        nameError.innerText = nameProblems.join(',')
+    }
 })
