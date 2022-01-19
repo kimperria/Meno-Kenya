@@ -18,25 +18,88 @@
     color: rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
 }
+
+
 /* about section */
-.section-header{
+
+.section-header {
     text-align: center;
     line-height: 5rem;
 }
 
+
 /* dentist section */
-.dentist-section{
+
+.dentist-section {
     background-color: rgba(47, 174, 239, 0.3);
 }
+
+
 /* testimonial section */
-.test-card{
+
+.test-card {
     background-color: rgba(47, 174, 239, 0.3);
     color: black;
 }
+
+
 /* contact section */
-.contact-section{
+
+.contact-section {
     background-color: rgba(47, 174, 239, 0.3);
 }
+
+
+/*Testimonials Styles Start*/
+
+.testimonials-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+.testimonials-user-emily,
+.testimonials-user-thomas,
+.testimonials-user-jennie {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-user-emily img,
+.testimonials-user-thomas img,
+.testimonials-user-jennie img {
+    border-radius: 50%;
+    height: 4rem;
+}
+
+.testimonials-user-emily-p,
+.testimonials-user-thomas-p,
+.testimonials-user-jennie-p {
+    max-width: 400px;
+    padding: 1rem 2.5rem;
+}
+
+.testimonials-user-emily-h4,
+.testimonials-user-thomas-h4,
+.testimonials-user-jennie-h4 {
+    padding: 1rem 0 0.5rem;
+}
+
+.testimonials-user-emily-work,
+.testimonials-user-thomas-work,
+.testimonials-user-jennie-work {
+    font-size: .7rem;
+    padding-bottom: 2rem;
+}
+
+
+/*Testimonials Style End*/
 
 
 /* footer */
@@ -90,6 +153,15 @@
 }
 
 @media screen and (min-width:768px) {
+    .testimonials {
+        background-color: white;
+    }
+    .testimonials-user {
+        max-width: 900px;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(256px, 300px));
+    }
     .footer {
         max-width: 1400px;
         margin-inline: auto;
@@ -111,7 +183,6 @@
     }
     .footer-socials {
         padding-top: .5rem;
-
     }
     .footer-socials a {
         padding-right: .3rem;
