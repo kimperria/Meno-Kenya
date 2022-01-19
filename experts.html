@@ -14,21 +14,23 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
-      />
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/expert.css" />
     <!--TALIWIND CSS HERE-->
+    `
     <link href="./css/tailwind.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-blue-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container container-fluid">
         <a class="navbar-brand" href="index.html">
-        <img
-          src="images/meno-kenya-logo.png"
-          alt="logo"
-          width="100"
-          height="50"
+          <img
+            src="images/meno-kenya-logo.png"
+            alt="logo"
+            width="100"
+            height="50"
           />
         </a>
         <button
@@ -39,15 +41,15 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          >
-        <span class="navbar-toggler-icon"></span>
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
-                >
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -60,8 +62,8 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >
-              Services
+              >
+                Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Dentists</a></li>
@@ -84,96 +86,124 @@
         </div>
       </div>
     </nav>
-    <section class=" w-full h-screen">
-      <div class="flex items-center justify-center min-h-screen">
-         <div class="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-3">
-            <!--DOCTOR-1-->
-            <div class="flex flex-col mx-auto justify-center">
-               <div
-               class="bg-gray-100 flex flex-col shadow-2xl rounded-2xl w-96 h-96"
-               data-aos="zoom-in"
-               data-aos-duration="2000"
-               >
-               <img
-                  src="./images/pexels-tima-miroshnichenko-5452195.jpg"
-                  class="w-96 h-60 rounded-t-2xl"
-                  />
-               <div class="flex flex-col p-3 text-xl">
-                  <h5 class="font-bold uppercase">Dr. Concepta</h5>
-                  
-                  <div class="flex flex-col mx-auto justify-center items-center">
-                  <a class="mt-8" href="#"
-                     ><button
-                     class="bg-blue-500 text-base p-2 w-48 text-center justify-center rounded-2xl text-white font-bold"
-                     
-                     data-aos="zoom-in-up"
-                     data-aos-duration="2500"
-                     >
-                  Book Appointment
-                  </button></a
-                     >
-                  </div>
-               </div>
-            </div>
-            </div>
-            <!--DOCTOR 2-->
-            <div class="flex flex-col mx-auto justify-center">
-            <div
-            class="bg-gray-100 flex-col flex shadow-2xl rounded-2xl w-96 h-96"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            >
+
+    <main class="">
+      <section class="space-y-5 mt-5 hover:bg-black hover:bg-opacity-30">
+        <a href="./appointment.html" class="text-black no-underline">
+          <div
+            class="box bg-white row-start-3 row-span-1 col-start-2 col-end-auto p-5 rounded-xl shadow-2xl w-full border-2 border-blue-400"
+          >
             <img
-               src="./images/pexels-andrea-piacquadio-3769021.jpg"
-               class="w-full h-60 rounded-t-2xl"
-               />
-            <div class="flex flex-col items-start p-3 text-xl">
-               <h1 class="font-bold">Dr. Kim</h1> 
+              src="./images/pexels-andrea-piacquadio-3769021.jpg"
+              alt="doctor1"
+              class="rounded-full flex flex-col mx-auto justify-center items-center p-2 mb-3 w-32 h-32"
+            />
+            <div class="text-center italics mx-auto justify-center">
+              <h1 class="font-bold text-lg">~Dr Concee</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur repudiandae impedit rem, consectetur, omnis
+                necessitatibus <br />et quod reprehenderit explicabo dolorum
+                incidunt. Suscipit cupiditate facere fugiat unde, iusto expedita
+                nobis veritatis.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Expedita in perferendis esse? Rem fugit pariatur repudiandae
+                esse voluptatem voluptatum quas neque similique voluptas eaque.
+                Ab aliquam reprehenderit repudiandae facere perferendis!
+              </p>
             </div>
-               <div class="flex flex-col justify-center items-center mx-auto">
-                  <a class="mt-8" href="#"
-                  ><button
-                  class="bg-blue-500 text-base p-2 w-48 text-center justify-center rounded-2xl text-white font-bold"
-                  
-                  data-aos="zoom-in-up"
-                  data-aos-duration="2500"
-                  >
-                  Book Appointment
-                  </button></a
-                  >
-               </div>
+          </div>
+        </a>
+      </section>
+      <section class="space-y-5 mt-5 hover:bg-black hover:bg-opacity-30">
+        <a href="./appointment.html" class="text-black no-underline">
+          <div
+            class="box bg-white row-start-3 row-span-1 col-start-2 col-end-auto p-5 rounded-xl shadow-2xl w-full border-2 border-blue-400"
+          >
+            <img
+              src="./images/pexels-ivan-samkov-4989165.jpg"
+              alt="doctor2"
+              class="rounded-full flex flex-col mx-auto justify-center items-center p-2 mb-3 w-32 h-32"
+            />
+            <div class="text-center italics mx-auto justify-center">
+              <h1 class="font-bold text-lg">~Dr Kim</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur repudiandae impedit rem, consectetur, omnis
+                necessitatibus <br />et quod reprehenderit explicabo dolorum
+                incidunt. Suscipit cupiditate facere fugiat unde, iusto expedita
+                nobis veritatis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatem corrupti ab sed inventore <br />nisi, suscipit modi
+                id totam sit, atque consectetur velit? Blanditiis maiores
+                possimus consequatur deserunt neque omnis quas!
+              </p>
             </div>
+          </div>
+        </a>
+      </section>
+      <section class="mt-5 mb-10 hover:bg-black hover:bg-opacity-40">
+        <a href="./appointment.html" class="text-black no-underline">
+          <div
+            class="box bg-white row-start-4 row-span-1 col-start-2 col-end-auto p-5 rounded-xl shadow-2xl w-full border-2 border-blue-400"
+          >
+            <img
+              src="./images/pexels-tima-miroshnichenko-5452195.jpg"
+              alt="doctor3"
+              class="rounded-full mx-auto justify-center items-center flex flex-col mb-3 p-2 w-32 h-32"
+            />
+            <div class="text-center italics text-base mx-auto justify-center">
+              <h1 class="font-bold text-lg">~Dr Oluoch</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                excepturi minus, itaque ducimus ab quisquam est consequatur
+                similique.<br />
+                Nesciunt ad illum quasi eligendi laudantium eius pariatur magnam
+                alias commodi repellat?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa id
+                fuga animi numquam.<br />Cumque, modi provident pariatur nulla
+                quidem veritatis tenetur, exercitationem amet ducimus maiores
+                quis in iusto, minima ratione.
+              </p>
             </div>
-            <!--DOCTOR 3-->
-            <div class="mx-auto flex p-2 justify-center">
-               <div
-               class="bg-gray-100 flex-col flex shadow-2xl rounded-2xl w-96 h-96 "
-               data-aos="zoom-in"
-               data-aos-duration="2000"
-               >
-               <img
-                  src="./images/pexels-ivan-samkov-4989142.jpg"
-                  class="w-full h-60 rounded-t-2xl"
-               />
-               <div class="flex flex-col items-start p-3 text-xl">
-                  <h1 class="font-bold ">Dr. Oluoch</h1>
-                  
-                  <div class="flex flex-col justify-center items-center mx-auto">
-                     <a class="mt-8" href="#"
-                     ><button
-                        class="bg-blue-500 text-base p-2 w-48 text-center justify-center rounded-2xl text-white font-bold"
-                       
-                        data-aos="zoom-in-up"
-                        data-aos-duration="2000"
-                     >
-                        Book Appointment
-                     </button></a
-                     >
-                  </div>
-               </div>
-               </div>
-         </div>
-      </div>
-    </section>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer">
+      <article class="footer-logo">
+        <a href="#"><img src="images/meno-kenya-logo.png" alt="logo" /></a>
+      </article>
+      <article class="footer-links">
+        <ul class="footer-links-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </article>
+      <article class="footer-socials">
+        <a href="https://www.facebook.com/monie.car.7" target="_blank"
+          ><img src="images/icons/facebook-light.svg" alt="facebook"
+        /></a>
+        <a href="https://github.com/John-Kimani/Meno-Kenya.git" target="_blank"
+          ><img src="images/icons/github.svg" alt="github"
+        /></a>
+        <a href="mailto:connietesot254@gmail.com" target="_blank"
+          ><img src="images/icons/gmail.svg" alt="gmail"
+        /></a>
+        <a href="https://twitter.com/crabs_ke" target="_blank"
+          ><img src="images/icons/twitter.svg" alt="twitter"
+        /></a>
+      </article>
+    </footer>
   </body>
 </html>
