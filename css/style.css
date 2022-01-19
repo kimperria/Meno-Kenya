@@ -25,6 +25,8 @@
 .section-header {
     text-align: center;
     line-height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 
@@ -81,7 +83,7 @@
 .testimonials-user-emily-p,
 .testimonials-user-thomas-p,
 .testimonials-user-jennie-p {
-    max-width: 400px;
+    max-width: 600px;
     padding: 1rem 2.5rem;
 }
 
@@ -157,10 +159,13 @@
         background-color: white;
     }
     .testimonials-user {
-        max-width: 900px;
+        max-width: 1200px;
         margin-inline: auto;
         display: grid;
-        grid-template-columns: repeat(3, minmax(256px, 300px));
+        grid-template-columns: repeat(3, minmax(256px, 400px));
+    }
+    .testimonials-user-jennie {
+        padding-top: 2rem;
     }
     .footer {
         max-width: 1400px;
