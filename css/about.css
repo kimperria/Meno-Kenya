@@ -1,0 +1,21 @@
+.aboutme h3{
+    text-align: center;
+    color: antiquewhite;
+} 
+.aboutme p{
+    padding: 1rem;
+    text-align: center;
+    color: antiquewhite;
+}
+.vision,
+.mission,
+.goal{
+    text-align: center;
+    color: antiquewhite;
+}
+.main{
+    background-image: linear-gradient(hsla(0, 0%, 0%,0.3),hsla(0, 0%, 0%,0.3)),url(../images/jonathan-borba-W9YEY6G8LVM-unsplash.jpg);
+    background-size: cover;
+
+
+}
