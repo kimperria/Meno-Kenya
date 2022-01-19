@@ -82,6 +82,7 @@
 
 .footer-socials {
     margin-right: 1rem;
+    display: flex;
 }
 
 .footer-socials a img {
@@ -110,6 +111,7 @@
     }
     .footer-socials {
         padding-top: .5rem;
+
     }
     .footer-socials a {
         padding-right: .3rem;
