@@ -1,4 +1,4 @@
-.main-thanks {
+.header-thanks {
     height: 90vh;
     background-image: linear-gradient(hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.3)), url(../images/thank-bg.jpg);
     background-size: cover;
@@ -9,16 +9,64 @@
     align-items: center;
 }
 
-.main-thanks-section {
+.header-thanks-section {
     text-align: center;
     color: white;
 }
 
-.main-thanks-section-h1 {
+.header-thanks-section-h1 {
     font-size: 5.5rem;
     font-family: 'Caveat', cursive;
 }
 
-.main-thanks-section-p {
+.header-thanks-section-p {
     font-size: 1.2rem;
+}
+
+.main-thanks {
+    padding: 3rem 1.5rem 1rem;
+}
+
+.main-thanks-title-h1 {
+    font-size: 2.7rem;
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.main-thanks-title-p {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    padding-right: .5rem;
+}
+
+.main-thanks-title-location {
+    padding: 1rem 0;
+}
+
+.main-thanks-title-location img {
+    height: 3rem;
+    padding-right: .5rem;
+}
+
+.in-block {
+    display: inline-block;
+}
+
+.main-thanks-image-div {
+    padding: 1rem;
+}
+
+.main-thanks-image-div img {
+    border-radius: .5rem;
+}
+
+@media all and (min-width: 1000px) {
+    .main-thanks {
+        max-width: 1400px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(450px, 700px));
+    }
+    .main-thanks-title {
+        padding-top: 3rem;
+    }
 }
