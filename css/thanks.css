@@ -73,13 +73,13 @@
 }
 
 #thank-you-name {
-    animation: fromTop 1s ease-in-out 1;
+    animation: fromTop 2s ease-in-out 1;
 }
 
 @keyframes fromTop {
     0% {
         opacity: 0.3;
-        transform: translateY(-150px);
+        transform: translateY(-100px);
     }
     50% {
         opacity: 0.5;
