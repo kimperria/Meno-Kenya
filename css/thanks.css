@@ -71,3 +71,22 @@
         padding-top: 3rem;
     }
 }
+
+#thank-you-name {
+    animation: fromTop 1s ease-in-out 1;
+}
+
+@keyframes fromTop {
+    0% {
+        opacity: 0.3;
+        transform: translateY(-150px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
