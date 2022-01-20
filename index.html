@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,16 +14,17 @@
     <!-- css links here -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!--TALIWIND CSS HERE-->
+    <!--TAIlWIND CSS HERE-->
     <link href="./css/tailwind.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--AOS ANIMATION SCRIPT-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-
 <body>
     <!-- nav bar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" data-aos="zoom-in" data-aos-duration="2000">
         <div class="container container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="images/meno-kenya-logo.png" alt="logo" width="100" height="50">
@@ -105,13 +105,13 @@
         <!-- carousel end -->
 
         <!-- about us section -->
-        <section class="container container-fluid about-section mt-4" id="about-section">
+        <section class="container container-fluid about-section mt-4" id="about-section" data-aos="fade-left" data-aos-duration="2000">
             <h2 class="section-header">ABOUT MENO KENYA</h2>
             <div class="row mt-4">
                 <div class="col-md-6">
                     <img class="col-12 " src="images/caroline-lm-8BkF0sTC6Uo-unsplash.jpg" alt="about image">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
                     <h5>What we do</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque harum, amet natus unde illo enim? Enim nisi neque, ratione ut accusantium et deserunt a quaerat voluptates magni amet aliquid.</p>
                     <hr>
@@ -126,49 +126,49 @@
         </section>
         <!-- about section ends -->
         <!-- dentists section start -->
-        <section class="container-fluid dentist-section mt-4">
+        <section class="container-fluid dentist-section mt-4" data-aos="zoom-in" data-aos-duration="2000">
             <h2 class="section-header">MEET THE EXPERTS</h2>
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
+                    <div class="col mb-8">
                         <div class="card">
                             <img src="images/pexels-ivan-samkov-4989165.jpg" class="card-img-top img-thumbnail" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <blockquote class="blockquote mb-0">
+                                <blockquote class="blockquote mb-3 mt-3">
                                     <p>‘Smile, it lets your teeth breathe’</p>
-                                    <footer class="blockquote-footer">Dr. Eugene</footer>
+                                    <footer class="blockquote-footer mt-2 mb-2 font-bold italics">Dr. Eugene</footer>
                                 </blockquote>
-                                <a href="#" class="btn book-button">Button</a>
+                                <a href="./appointment.html" class="btn book-button p-2 w-32">Book</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="images/pexels-ivan-samkov-4989165.jpg" class="card-img-top img-thumbnail" alt="...">
+                        <div class="card mb-8">
+                            <img src="./images/pexels-andrea-piacquadio-3769021.jpg" class="card-img-top img-thumbnail" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <blockquote class="blockquote mb-0">
+                                <blockquote class="blockquote mb-0 mt-3">
                                     <p>‘Smile, it lets your teeth breathe’</p>
-                                    <footer class="blockquote-footer">Dr. Eugene</footer>
+                                    <footer class="blockquote-footer mt-2 mb-2 font-bold italics">Dr. Oluoch</footer>
                                 </blockquote>
-                                <a href="#" class="btn book-button">Button</a>
+                                <a href="./appointment.html" class="btn book-button p-2 w-32">Book</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mb-3">
-                            <img src="images/pexels-ivan-samkov-4989165.jpg" class="card-img-top img-thumbnail" alt="...">
+                        <div class="card mb-8">
+                            <img src="./images/pexels-tima-miroshnichenko-5452201.jpg" class="card-img-top img-thumbnail w-full h-80" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <blockquote class="blockquote mb-0">
+                                <blockquote class="blockquote mb-0 mt-3">
                                     <p>‘Smile, it lets your teeth breathe’</p>
-                                    <footer class="blockquote-footer">Dr. Eugene</footer>
+                                    <footer class="blockquote-footer mt-2 mb-2 font-bold italics">Dr. Kim</footer>
                                 </blockquote>
-                                <a href="#" class="btn book-button">Button</a>
+                                <a href="./appointment.html" class="btn book-button p-2 w-32">Book</a>
                             </div>
                         </div>
                     </div>
@@ -181,19 +181,19 @@
                 <h3 class="section-header">Client testimonials</h3>
             </article>
             <article class="testimonials-user">
-                <div class="testimonials-user-emily">
+                <div class="testimonials-user-emily" data-aos="zoom-in-up" data-aos-duration="2000">
                     <img src="images/image-emily.jpg" alt="woman">
                     <p class="testimonials-user-emily-p">I chose Meno Kenya Dentistry to finally get veneers after being unhappy with my smile for over a year. I am so glad I did!</p>
                     <h4 class="testimonials-user-emily-h4">Emily R.</h4>
                     <p class="testimonials-user-emily-work">Marketing Director</p>
                 </div>
-                <div class="testimonials-user-thomas">
+                <div class="testimonials-user-thomas" data-aos="zoom-in-up" data-aos-duration="2000">
                     <img src="images/image-thomas.jpg" alt="man">
                     <p class="testimonials-user-thomas-p">"I have never seen the professionalism and modern technology like at Meno Kenya Dentistry--I was very impressed.</p>
                     <h4 class="testimonials-user-thomas-h4">Thomas S.</h4>
                     <p class="testimonials-user-thomas-work">Chief Operating Officer</p>
                 </div>
-                <div class="testimonials-user-jennie">
+                <div class="testimonials-user-jennie"data-aos="zoom-in-up" data-aos-duration="2000">
                     <img src="images/image-jennie.jpg" alt="woman">
                     <p class="testimonials-user-jennie-p">"Meno Kenya Dentistry makes you feel extremely comfortable; the staff is very professional. I am completely satisfied with the work I've had done.</p>
                     <h4 class="testimonials-user-jennie-h4">Jennie F.</h4>
@@ -203,7 +203,7 @@
         </section>
         <!-- testimonial section ends -->
         <!-- contact us start -->
-        <section class="container-fluid contact-section" id="contact-section">
+        <section class="container-fluid contact-section" id="contact-section" data-aos="fade-up" data-aos-duration="2000">
             <h2 class="section-header" id="contact">CONTACT US</h2>
             <form class="container mx-auto" style="max-width: 840px;" id="form">
                 <div class="row">
@@ -253,6 +253,10 @@
         </article>
     </footer>
     <!-- js links here -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="contact-form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
