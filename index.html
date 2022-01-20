@@ -205,18 +205,21 @@
         <!-- contact us start -->
         <section class="container-fluid contact-section" id="contact-section">
             <h2 class="section-header" id="contact">CONTACT US</h2>
-            <form class="container mx-auto" style="max-width: 840px;">
+            <form class="container mx-auto" style="max-width: 840px;" id="form">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 mb-3">
+                        <div id="name-error"></div>
                         <label for="name" class="form-label">Your Name</label>
                         <input type="text" class="form-control" id="client-name" aria-describedby="name" placeholder="Mary Jane">
                     </div>
                     <div class="col-md-6 col-sm-12 mb-3">
+                        <div id="location-error"></div>
                         <label for="location" class="form-label">Location</label>
                         <input type="text" class="form-control" id="client-location" aria-describedby="name" placeholder="Ruiru, Kiambu.">
                     </div>
                 </div>
                 <div class="mb-3">
+                    <div id="email-error"></div>
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="mary@jane.com">
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -224,7 +227,7 @@
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea2" style="height: 100px"></textarea>
                 </div>
-                <button type="submit" class="btn book-button">Submit</button>
+                <button type="submit" class="btn book-button" id="contact-btn">Submit</button>
             </form>
         </section>
     </main>
@@ -250,6 +253,7 @@
         </article>
     </footer>
     <!-- js links here -->
+    <script src="contact-form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
