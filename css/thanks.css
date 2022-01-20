@@ -65,6 +65,7 @@
         max-width: 1400px;
         display: grid;
         grid-template-columns: repeat(2, minmax(450px, 700px));
+        grid-column-gap: 3rem;
     }
     .main-thanks-title {
         padding-top: 3rem;
