@@ -1,6 +1,6 @@
 # MenoKenya
 
-![Design preview for the MenoKenya web page](image)
+![Design preview for the MenoKenya web page](https://github.com/John-Kimani/Meno-Kenya/blob/master/images/MenoKenya-home.png)
 
 ## Karibu! 👋
 
@@ -24,9 +24,9 @@ Meno Kenya is a dental services e-commerce platform that enables users to book d
 3. JavaScript for behaviour and functionality.
 
 ## Collaborators
-> [Conceptor Cherono](https://github.com/conceptacherono)
-> [Eugene Oluoch](https://github.com/Eugene-Oluoch)
-> [Kimani John](https://github.com/John-Kimani)
-> [Monica Masae](https://github.com/M0nicah)
+. [Conceptor Cherono](https://github.com/conceptacherono)
+. [Eugene Oluoch](https://github.com/Eugene-Oluoch)
+. [Kimani John](https://github.com/John-Kimani)
+. [Monica Masae](https://github.com/M0nicah)
 
 
