@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+.shoppy{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0;
+	 padding: 0%;
+	 box-sizing: border-box;
+	 outline: none;
+	 border: none;
+	 text-overflow: capitalize;
+	 transition: all 0.2s linear;
+}
+.braces img,
+.dentures img,
+.whitening img,
+.toothbrush img,
+.guard img
+{
+height:3rem;
+}
+.space{
+    justify-content: space-between;
+}
+.add {
+	background-color: #2faeef;
+	display: inline-block;
+	cursor: pointer;
+	background: no-repeat;
+	font-size: 0.75rem;
+	padding: 1rem 2rem;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.add:hover {
+	background-color: hsl(200, 86%, 75%);
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+.space {
+	display: inline-block;
+	width: 1rem;
+}
+.shoppy{
+    background-image: linear-gradient(hsla(0, 0%, 0%,0.3),hsla(0, 0%, 0%,0.3)),url(../images/shoop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+   
