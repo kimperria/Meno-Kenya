@@ -65,8 +65,28 @@
         max-width: 1400px;
         display: grid;
         grid-template-columns: repeat(2, minmax(450px, 700px));
+        grid-column-gap: 3rem;
     }
     .main-thanks-title {
         padding-top: 3rem;
+    }
+}
+
+#thank-you-name {
+    animation: fromTop 2s ease-in-out 1;
+}
+
+@keyframes fromTop {
+    0% {
+        opacity: 0.3;
+        transform: translateY(-100px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
