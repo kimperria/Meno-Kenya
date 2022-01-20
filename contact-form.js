@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
     let nameProblems = []
     let emailProblems = []
 
-    if(clientName.value === null || clientName.value == ' '){
+    if(clientName.value === null || clientName.value.length == 0){
         nameProblems.push("Name is required!")
     }
     if(clientEmail.value === null || clientEmail.value == ' '){
