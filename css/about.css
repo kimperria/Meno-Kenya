@@ -16,6 +16,7 @@
 .main{
     background-image: linear-gradient(hsla(0, 0%, 0%,0.3),hsla(0, 0%, 0%,0.3)),url(../images/jonathan-borba-W9YEY6G8LVM-unsplash.jpg);
     background-size: cover;
+    height: 750px;
 
 
 }
