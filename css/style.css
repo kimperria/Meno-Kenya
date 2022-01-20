@@ -18,25 +18,90 @@
     color: rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
 }
+
+
 /* about section */
-.section-header{
+
+.section-header {
     text-align: center;
     line-height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
+
 /* dentist section */
-.dentist-section{
+
+.dentist-section {
     background-color: rgba(47, 174, 239, 0.3);
 }
+
+
 /* testimonial section */
-.test-card{
+
+.test-card {
     background-color: rgba(47, 174, 239, 0.3);
     color: black;
 }
+
+
 /* contact section */
-.contact-section{
+
+.contact-section {
     background-color: rgba(47, 174, 239, 0.3);
 }
+
+
+/*Testimonials Styles Start*/
+
+.testimonials-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+.testimonials-user-emily,
+.testimonials-user-thomas,
+.testimonials-user-jennie {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-user-emily img,
+.testimonials-user-thomas img,
+.testimonials-user-jennie img {
+    border-radius: 50%;
+    height: 4rem;
+}
+
+.testimonials-user-emily-p,
+.testimonials-user-thomas-p,
+.testimonials-user-jennie-p {
+    max-width: 600px;
+    padding: 1rem 2.5rem;
+}
+
+.testimonials-user-emily-h4,
+.testimonials-user-thomas-h4,
+.testimonials-user-jennie-h4 {
+    padding: 1rem 0 0.5rem;
+}
+
+.testimonials-user-emily-work,
+.testimonials-user-thomas-work,
+.testimonials-user-jennie-work {
+    font-size: .7rem;
+    padding-bottom: 2rem;
+}
+
+
+/*Testimonials Style End*/
 
 
 /* footer */
@@ -58,7 +123,7 @@
 }
 
 .footer-links-ul {
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -66,7 +131,7 @@
     list-style: none;
     display: block;
     padding: .5rem 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .footer-links-ul a {
@@ -82,6 +147,7 @@
 
 .footer-socials {
     margin-right: 1rem;
+    margin-top: .8rem;
     display: flex;
 }
 
@@ -90,6 +156,18 @@
 }
 
 @media screen and (min-width:768px) {
+    .testimonials {
+        background-color: white;
+    }
+    .testimonials-user {
+        max-width: 1200px;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(256px, 400px));
+    }
+    .testimonials-user-jennie {
+        padding-top: 2rem;
+    }
     .footer {
         max-width: 1400px;
         margin-inline: auto;
@@ -111,7 +189,6 @@
     }
     .footer-socials {
         padding-top: .5rem;
-
     }
     .footer-socials a {
         padding-right: .3rem;
@@ -123,6 +200,21 @@
         list-style: none;
         display: inline-block;
         padding: .5rem .5rem;
-        font-size: 1.2rem;
+        font-size: .9rem;
+    }
+}
+
+.testimonials-animation-scale {
+    animation: scale 2s ease-in-out 1;
+}
+
+@keyframes scale {
+    0% {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
     }
 }
