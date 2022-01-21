@@ -1,3 +1,3 @@
 function fun() {
-    alert ("Thankyou for purchasing.");
- }
+    alert("Thank you for purchasing.");
+}
